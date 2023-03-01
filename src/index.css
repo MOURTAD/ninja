@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 10px;
+}
+.navbar a:hover {
+  color: #5ac72f;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.didi{
+  padding: 15% 5% 5% 5%;
+  margin: 10% 38% ;
+  display: inline-block;
+  background-color: #5CD2C9;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  border-radius: 20px;
+}
+.didi .email{
+ 
+  margin:5px ;
+  padding: 5px 10px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+.didi .password{
+  margin:5px ;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 8px; 
+}
+
+
+.didi .submit{
+
+  position: relative;
+  background-color: #FFF7D6;
+  border: none;
+  font-size: 15px;
+  color: #000000;
+  margin: 8% 15% 0% 20%;
+  padding: 4px;
+  width: 100px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.didi .submit:after {
+  content: "";
+  background: #000000;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 1s
+}
+
+.didi .submit:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 1s
+}
+
+.sign {
+  padding: 15% 5% 5% 5%;
+  margin: 10% 38% ;
+  display: inline-block;
+  display: flex;
+  background-color: #5CD2C9;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  border-radius: 20px;
+}
+
+.sign .name {
+  margin:5px 0%;
+  padding: 5px 10px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+.sign .pass{
+  margin:5px 0%;
+  padding: 5px 10px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+.sign .email{
+  margin:5px 0%;
+  padding: 5px 10px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+.sign .submit{
+  position: relative;
+  background-color: #FFF7D6;
+  border: none;
+  font-size: 15px;
+  color: #000000;
+  margin: 15% 30% 0% 20%;
+  padding: 4px;
+  width: 100px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.sign .submit:after {
+  content: "";
+  background: #000000; 
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 1s
+}
+
+.sign .submit:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 1s
+}
+ .col{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+} 
+
+
+.parent{
+  margin-top: -170px;
+  margin-left: -10px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 180%;
+  height: 100px;
+  margin-bottom: 4px;
+}
+ .image{
+  max-width: inherit;
+  max-height: inherit;
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}  
+.line{
+  margin-top:20% ;
+    background: rgb(255, 255, 255);
+    height: 0px;
+}
+
+.move{
+  color: #000000;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: -40px ;
+}
+
+.prnt{
+  margin-top: -140px;
+  margin-left: -70px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 180%;
+  height: 100px;
+  margin-bottom: 40px;
+}
+
+.img{
+  max-width: inherit;
+  max-height: inherit;
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
